@@ -1,6 +1,2 @@
-#Ignore uploads folder
-uploads/
 #Ignore logs folder
 logs/
-#Ignore confirmationCode folder
-confirmationCode/
