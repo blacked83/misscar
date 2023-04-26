@@ -1,0 +1,446 @@
+div#container{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+}
+
+.menu{
+    height: 100vh;
+    width: 165px;
+    border-right: 2px solid var(--orange);
+    color: var(--gray);
+    align-items: center;
+    overflow-y: auto;
+}
+
+.menu_items{
+    text-align: center;
+    width: 100%;
+}
+
+.menuItem{
+    text-align: center;    
+}
+
+.menuItem svg{
+    width: 10vh;
+    max-width: 50px;
+    height: 10vh;
+    max-height: 50px;
+}
+
+#btnNews svg{
+    width: 10vh;
+    max-width: 70px;
+    height: 10vh;
+    max-height: 70px;
+}
+
+#btnEvents svg{
+    width: 10vh;
+    max-width: 50px;
+    height: 10vh;
+    max-height: 70px;
+}
+
+.icon_menu{
+    color: var(--gray) !important;
+    cursor: pointer;
+}
+
+.icon_menu.active{
+    color: var(--orange) !important;
+}
+
+.icon_menu:hover{
+    color: var(--orange) !important;
+}
+
+#header{
+    width: 100%;
+    height: 90px;
+    text-align: right;
+    padding: 20px;
+}
+
+#footer{
+    width: 100%;
+    height: 40px;
+    text-align: end;
+    padding-top: 10px;
+}
+
+.main{
+    padding: 20px 5%;
+    overflow-y: auto;
+    height: 80%;
+}
+
+.optionDealer select{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    color: var(--blue) !important;
+}
+
+.viewpage{
+    margin-top: 5vh;
+    padding-right: 1vw;
+}
+
+#firstOption{
+    margin-bottom: 3vh;
+}
+
+.optionDealer{
+    font-size: 2vw;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.optionDealer select{
+    margin-left: 2vw;
+}
+
+.titulo1{
+    color: var(--blue);
+    font-size: 2vw;
+    font-weight: bold;
+    margin-right: 2vw;
+}
+
+.subtitulo1{
+    color: var(--blue);
+    font-size: 1.3vw;
+    font-weight: bold;
+    margin-right: 2vw;
+}
+
+.btnAdd{
+    color: white;
+    background-color: var(--orange);
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    cursor: pointer;
+    margin: auto;
+}
+
+.btnAdd i{
+    margin-top: 4px;
+    margin: auto;
+}
+
+.totalgroup{
+    display: flex;
+    margin-top: 5vh;
+    color: white;
+    font-weight: bold;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+.totalgroup:first-child{
+    margin-top: 0;
+}
+
+.totalgroup .totallabel{
+    width: 80%;
+    background-color: var(--green);
+    padding-left: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 15px 0 0 15px;
+}
+
+.totalgroup .totalnum{
+    width: 20%;
+    background-color: var(--orange);
+    border-radius: 0 15px 15px 0;
+    text-align: center;
+    border-left: 0.5vw solid white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.backlink{
+    cursor: pointer;
+}
+
+.title{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5vw;
+}
+
+.cardRefer{
+    width: 100%;
+    height: 220px;
+    background-color: var(--green);
+    color: white;
+    border-radius: 15px;
+    display: flex;
+}
+
+.cardRefer .w-50:last-child div:first-child{
+    padding-top: 15px;
+    padding-right: 5px;
+}
+
+.referOptions{
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: 2px solid var(--orange);
+    margin-top: 20%;
+    margin-right: 5px;
+}
+
+.referOptions img {
+    cursor: pointer;
+}
+
+.text-break{
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.checkLabel{
+    color: gray;
+    margin-left: 14px;
+    margin-bottom: 20px;
+}
+
+.titleAddAdviser{
+    color: var(--blue);
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.modal-footer #modalError{
+    color: red;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+
+.newsimg{
+    width: 100%;
+}
+
+.newsimgmodal{
+    width: 100%;
+}
+
+#newlist tbody tr td:last-child{
+    vertical-align: middle;
+}
+
+.rankingCard{
+    border: 5px solid var(--orange);
+    border-radius: 25px;
+    width: 100%;
+    margin-top: 5vh;
+    display: flex;
+    padding: 20px;
+}
+
+.rankingCard .my-auto img{
+    border-radius: 10px;
+    max-width: 100px;
+    height: auto;
+}
+
+.rankingNumber{
+    font-size: 3vw;
+    font-weight: bold;
+    color: var(--blue);
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100px !important;
+    text-align: center;
+}
+
+.rankingData{
+    width: 400px !important;
+    padding-left: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.rankingDealer{
+    width: 250px;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: var(--blue);
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.rankingIMG{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    width: 75px;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.rankingIMG img{
+    width: auto;
+    height: 70%;
+}
+
+@media (orientation: portrait){
+    body{
+        font-size: 16px;
+    }
+
+    div#container{
+        height: 100vh;
+        flex-flow: row wrap-reverse;
+    }
+
+    .menu{
+        height: 10vh;
+        width: 100%;
+        border-right: none;
+        border-top: 2px solid var(--orange);
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .menu_items{
+        text-align: center;
+        width: 100%;
+        display: flex;
+    }
+
+    .menuItem{
+        margin-right: 20px;
+        text-align: center;
+        padding: auto;
+    }
+
+    .menuItem svg{
+        width: 10vw;
+        height: 10vw;
+    }
+
+    #btnNews svg{
+        width: 13vw;
+        height: 13vw;
+    }
+    
+    #btnTia svg{
+        width: 15vw;
+        height: 15vw;
+    }
+
+    #mainsecction{
+        height: 85vh;
+        float: right;
+    }
+
+    #header img{
+        width: 100px;
+    }
+
+    #footer{
+        display: none;
+    }
+
+    .main{
+        height: 85%;
+    }
+
+    .title{
+        font-size: 1.5vh;
+    }
+
+    .optionDealer{
+        font-size: 2vh;
+    }
+
+    #divCountry span{
+        margin-top: auto;
+        margin-bottom: auto;
+        display: flex;
+    }
+
+    .titulo1{
+        font-size: 2vh;
+        margin-top: auto;
+        margin-bottom: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .optionDealer span{
+        margin-top: auto;
+        margin-bottom: auto;
+        display: flex;
+    }
+
+    .totalgroup{
+        font-size: 2vh;
+        margin-top: 2.5vh;
+    }
+
+    .btnAdd{
+        width: 30px;
+        height: 30px;
+    }
+
+    .btnAdd i{
+        font-size: 3vh;
+    }
+
+    #formReferral .form-check{
+        display: block !important;
+    }
+
+    .referOptions{
+        display: block !important;
+    }
+
+    .referOptions a{
+        text-decoration: none;
+    }
+
+    .referOptions img{
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .rankingNumber{
+        font-size: 4vh;
+        margin-right: 10px;
+    }
+
+    .rankingCard .my-auto{
+        display: none;
+    }
+
+    .rankingData{
+        padding-left: 10px;
+    }
+
+    .rankingDealer{
+        display: none;
+    }
+
+    .rankingIMG img{
+        height: 50px;
+    }
+
+    #btnSanSearch{
+        width: 50px;
+    }
+}

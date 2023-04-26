@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'proxima_nova_regular';
+    src: url('../fonts/proximanova-regular.woff2') format('woff2'),
+         url('../fonts/proximanova-regular.woff') format('woff');
+}
+
+:root{
+    --green: #492F89;
+    --orange: #EF5E99;
+    --orange-over: #ce4619;
+    --blue: #154B8E;
+    --gray: #A8A8A8;
+    --orange-alfa: rgba(239, 94, 153, .5);
+    --green-alfa: rgba(73, 47, 137, 0.5);
+}
+
+body{
+    font-family: 'proxima_nova_regular';
+    background-color: var(--green);
+    color: var(--gray);
+}
+
+.bg-orange{
+    background-color: var(--orange);
+}
+
+.form-label{
+    color: gray;
+    margin-left: 14px;
+}
+
+.form-check-label{
+    color: var(--blue) !important;
+}
+
+.form-control, .form-select{
+    border-top-style: none !important;
+    border-left-style: none !important;
+    border-right-style: none !important;
+    border-bottom-color: var(--green) !important;
+    border-bottom-width: 3px !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    outline: none !important;
+    color: var(--blue) !important;
+}
+
+.title{
+    font-size: 1.5 hw;
+    color: var(--green);
+    font-weight: bold;
+}
+
+textarea.form-control{
+    resize: none;
+}
+
+.text-blue{
+    color: var(--blue);
+}
+
+.input-group-text{
+    border-radius: 0 !important;
+}
+
+.form-control:focus, .form-control:active, .form-select:focus, .form-select:active{
+    border-bottom-color: var(--orange) !important;
+    outline: none !important;
+}
+
+.btn-primario{
+    color: white;
+    background-color: var(--orange);
+    border-radius: 5vw;
+    border-style: none;
+    padding: 10px 50px;
+}
+
+.btn-primario:disabled{
+    background-color: var(--gray);
+}
+
+.btn-primario:enabled:active, .btn-primario:enabled:focus{
+    box-shadow: 0 0 0 0.25rem var(--orange-alfa);
+    outline: none !important;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+div.login{
+    border-style: solid;
+    border-width: 0.3vw;
+    border-color: var(--orange);
+    border-radius: 1vw;
+    background-color: white;
+    padding: 20px;
+    width: 820px;
+    height: 590px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -295px;
+    margin-left: -410px;
+    text-align: center;
+    font-weight: bold;
+    overflow-y: auto;
+}
+
+img.logo{
+    width: 50vw;
+    max-width: 375px;
+    margin-top: 0px;
+}
+
+div#form{
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.forgetpass{
+    font-size: 14px;
+    color: var(--green);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#btnLogin{
+    padding: 10px 50px;
+}
+
+#sendCode{
+    padding: 10px 10px !important;
+}
+
+.invalid-feedback{
+    font-size: 14px;
+}
+
+.login #backlink{
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+input.inputCode{
+    display: inline;
+    font-size: 30px;
+    border-style: solid;
+    border-color: var(--green);
+    border-width: 5px;
+    border-radius: 15px;
+    width: 50px;
+    margin-left: 25px;
+    text-align: center;
+}
+
+input.inputCode:focus{
+    outline: none;
+}
+
+div#alertLogin, div#alertForget{
+    font-size: 14px; 
+}
+
+.viewpass{
+    width: 30px;
+}
+
+.input-group .input-group-text{
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom-color: var(--green);
+    border-bottom-width: 3px !important;
+    background-color: unset;
+}
+
+.form-control{
+    font-size: 20px;
+}
+
+@media (orientation: portrait){
+    .btn-primario{
+        border-radius: 5vh;
+    }
+
+    div#form{
+        margin-top: 20vh;
+        width: 100%;
+        margin-left: 0;
+        font-size: 16px;
+    }
+
+    div.login{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        margin-top: 0;
+        margin-left: 0;
+        border-style: none;
+        border-radius: 0;
+    }
+
+    input.inputCode{
+        font-size: 20px;
+        border-width: 3px;
+        border-radius: 15px;
+        width: 35px;
+        margin-left: 15px;
+    }
+}

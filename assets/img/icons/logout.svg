@@ -1,0 +1,6 @@
+<svg class="icon_menu" id="logout" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g transform="translate(-570 -979)">
+    <path id="Sustracción_1" data-name="Sustracción 1" d="M47.183,70H16A16,16,0,0,1,0,54V16A16,16,0,0,1,16,0H47.183a16,16,0,0,1,16,16v8.882l-5.417-3.775A16,16,0,0,0,41.79,5.976h-20.4a16.018,16.018,0,0,0-16,16v26.05a16.018,16.018,0,0,0,16,16h20.4A16,16,0,0,0,57.767,48.894l5.417-3.775V54a16,16,0,0,1-16,16Z" transform="translate(570 979)" fill="currentcolor"/>
+    <path id="Unión_1" data-name="Unión 1" d="M11.114,53.269a3,3,0,0,1-3-3V30.984H3A3,3,0,0,1,.381,26.529L14.237,1.545a3,3,0,0,1,5.247,0L33.34,26.529a3,3,0,0,1-2.623,4.455H25.607V50.269a3,3,0,0,1-3,3Z" transform="translate(640.001 997.14) rotate(90)" fill="currentcolor"/>
+  </g>
+</svg>
